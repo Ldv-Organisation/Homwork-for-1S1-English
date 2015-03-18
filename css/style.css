@@ -1,0 +1,10 @@
+body{background-color: #337ab7;}
+.navbar{margin: 0;}
+#content{padding: 25px;background-color: #fff;}
+.btn{margin: 10px 0;}
+.map{z-index: 2}
+.btn-reserve{margin-top: 45%}
+
+.hotel{margin-bottom: 20px}
+.hotel:after{content: '';height : 20px;width: 100%; border-bottom: 1px dashed;}
+.hotel:last-child:after{border: none;}

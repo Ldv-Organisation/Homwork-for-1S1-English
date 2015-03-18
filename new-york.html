@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<header class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu-mobile">
+					<span class="sr-only">Toogle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Voyage.com</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-menu-mobile">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Acceuil</a></li>
+					<li class="active"><a href="new-york.html">New York</a></li>
+					<li><a href="athens.html">Athens</a></li>
+					<li><a href="rome.html">Rome</a></li>
+					<li><a href="paris.html">Paris</a></li>					
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+	<div id="content" class="container">
+		<div class="map">
+			<center>
+				<iframe class="map" id="map-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13133306.612304205!2d-85.58261592126107!3d36.52097812254496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sfr!4v1426705243433" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+			</center>
+		</div>
+		<center><button class="btn btn-primary view-map" data-target="#map-1">New York map</button></center>
+		<div class="row">
+			<div class="col-md-6">
+				<img class="img-responsive" src="img/statue-of-liberty.jpg">
+				<p>
+					<em>Statue of Liberty, Liberty Island</em>
+				</p>
+			</div>
+			<div class="col-md-6">
+				<center>
+					<iframe class="map" id="map-2" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24200.631178683685!2d-74.0536411!3d40.69426!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2s!4v1426695899795" width="100%" height="300px" frameborder="0" style="border:0"></iframe>
+					<button class="btn btn-success view-map" data-target="#map-2">Liberty Island map</button>
+					<p>The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The statue, designed by Frédéric Auguste Bartholdi, a French sculptor and dedicated on October 28, 1886, was a gift to the United States from the people of France. The statue is of a robed female figure representing Libertas, the Roman goddess, who bears a torch and a tabula ansata (a tablet evoking the law) upon which is inscribed the date of the American Declaration of Independence, July 4, 1776. A broken chain lies at her feet. The statue is an icon of freedom and of the United States: a welcoming signal to immigrants arriving from abroad. </p>
+					<a href="http://en.wikipedia.org/wiki/Statue_of_Liberty">©wikipedia</a>
+				</center>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<center>
+					<iframe class="map" id="map-3" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3021.0522702646613!2d-73.965355!3d40.782865!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1426696572263" width="100%" height="300px" frameborder="0" style="border:0"></iframe>
+					<button class="btn btn-success view-map" data-target="#map-3">Central Park map</button>
+					<p>Central Park was the first landscaped public park in the United States. Advocates of creating the park--primarily wealthy merchants and landowners--admired the public grounds of London and Paris and urged that New York needed a comparable facility to establish its international reputation. A public park, they argued, would offer their own families an attractive setting for carriage rides and provide working-class New Yorkers with a healthy alternative to the saloon. After three years of debate over the park site and cost, in 1853 the state legislature authorized the City of New York to use the power of eminent domain to acquire more than 700 acres of land in the center of Manhattan. <a href="http://www.centralpark.com/">©centralpark.com/</a></p>
+
+				</center>
+			</div>
+			<div class="col-md-6">
+				<img class="img-responsive" src="img/central-park.jpg">
+				<p>
+					<em>Central Park</em>
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img class="img-responsive" src="img/broadway.jpg">
+				<p>
+					<em></em>
+				</p>
+			</div>
+			<div class="col-md-6">
+				<center>
+					<iframe class="map" id="map-4" src="https://www.google.com/maps/d/embed?mid=zV09tFta3wzM.kZf4LTqNx6P8" width="100%" height="300px"></iframe>
+					<button class="btn btn-success view-map" data-target="#map-4">Broadway map</button>
+					<p><a href=""></a></p>
+
+				</center>
+			</div>
+		</div>
+		<center><a href="new-york-hotels.html" class="btn btn-info">Find hotel in New York</a></center>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/maps.js"></script>
+</body>
+</html>
