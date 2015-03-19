@@ -8,3 +8,5 @@ body{background-color: #337ab7;}
 .hotel{margin-bottom: 20px}
 .hotel:after{content: '';height : 20px;width: 100%; border-bottom: 1px dashed;}
 .hotel:last-child:after{border: none;}
+
+.place{margin-bottom: 20px}
